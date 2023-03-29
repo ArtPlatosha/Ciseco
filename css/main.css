@@ -147,3 +147,8 @@ section {
 	letter-spacing: 2px;
 	opacity: 0.8;
 }
+
+header.sticky {
+	background-color: var(--bg-color);
+	padding: 14px 11%;
+}
