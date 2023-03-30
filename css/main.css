@@ -385,3 +385,12 @@ span {
 	color: var(--text-color);
 	transform: translateX(-5px);
 }
+
+.end-text p {
+	text-align: center;
+	padding: 20px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: var(--other-color);
+}
+
