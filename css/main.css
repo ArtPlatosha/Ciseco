@@ -317,3 +317,38 @@ span {
 	background-color: #ef4444;
 	cursor: pointer;
 }
+
+.cta {
+	background: url(../img/cta.png);
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.cta-text {
+	max-width: 560px;
+	margin-left: 120px;
+}
+
+.cta-text .logo img {
+	width: 160px;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+
+.cta-text h3 {
+	font-size: 3.3rem;
+	line-height: 1.2;
+	margin-bottom: 1.5rem;
+}
+
+.cta-text p {
+	font-size: var(--p-font);
+	color: var(--other-color);
+	font-weight: 500;
+	margin-bottom: 2.5rem;
+}
